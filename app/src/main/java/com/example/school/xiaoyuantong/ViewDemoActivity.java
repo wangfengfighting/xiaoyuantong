@@ -2,19 +2,17 @@ package com.example.school.xiaoyuantong;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.os.Message;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class MainActivity extends ActionBarActivity {
+public class ViewDemoActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_view_demo);
 
         new Handler().postDelayed(new Runnable() {
 
@@ -22,20 +20,20 @@ public class MainActivity extends ActionBarActivity {
 
 
             public void run() {
-                Intent intent = new Intent(MainActivity.this, ViewDemoActivity.class);
+                Intent intent = new Intent(ViewDemoActivity.this, Login.class);
                 startActivity(intent);
-                }
+
+            }
 
 
-        }, 1500);
+        }, 6000);
+
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        getMenuInflater().inflate(R.menu.menu_view_demo, menu);
         return true;
     }
 

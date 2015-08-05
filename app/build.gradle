@@ -25,4 +25,5 @@ dependencies {
     compile files('libs/badgeview.jar')
     compile files('src/libs/badgeview.jar')
     compile files('src/libs/android-support-v4.jar')
+    compile files('libs/nineoldandroids-library-2.4.0.jar')
 }

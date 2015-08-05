@@ -26,7 +26,7 @@
             android:label="@string/title_activity_login" >
         </activity>
         <activity
-            android:name=".Login_Register_Activity"
+            android:name=".ViewDemoActivity"
             android:label="校园通" >
         </activity>
         <activity
