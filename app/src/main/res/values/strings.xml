@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">校园通</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_load_movie">校园通</string>
+    <string name="title_activity_login">校园通</string>
+    <string name="title_activity_main_login_register_">校园通</string>
+    <string name="title_activity_login__register_">校园通</string>
+    <string name="title_activity_info_">校园通</string>
+</resources>
